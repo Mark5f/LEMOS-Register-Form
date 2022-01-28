@@ -1,0 +1,387 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box
+}
+
+header {
+  padding: 100px;
+  background-color: #38b6ff;
+  justify-content: center;
+  display: flex
+}
+
+body {
+  direction: rtl;
+  font-family: Arial;
+  font-style: bold;
+  font-size: 18px
+}
+
+section {
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #38b6ff
+}
+
+.container {
+  max-width: 400px;
+  width: 90%;
+  padding: 20px;
+  box-shadow: 0 0 20px #00000020;
+  border-radius: 8px;
+  background-color: #fff
+}
+
+.step {
+  display: none
+}
+
+.step.active {
+  display: block
+}
+
+.form-group {
+  width: 100%;
+  margin-top: 10px
+}
+
+.form-group input {
+  width: 100%;
+  border: 1.5px solid rgba(128, 128, 128, .418);
+  padding: 5px;
+  font-size: 18px;
+  margin-top: 5px;
+  border-radius: 4px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, .2)
+}
+
+div1 {
+  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  font-size: 35px;
+  font-weight: 700
+}
+
+button.next-btn, button.previous-btn, button.submit-btn {
+  float: left;
+  text-align: left;
+  margin-top: 20px;
+  padding: 10px 10px;
+  border: none;
+  outline: 0;
+  background-color: #b4dcff;
+  font-size: 18px;
+  font-style: bold;
+  cursor: pointer;
+  box-shadow: 0 0 5px rgba(0, 0, 0, .2)
+}
+
+button.previous-btn {
+  float: right;
+  box-shadow: 0 0 5px rgba(0, 0, 0, .2)
+}
+
+button.submit-btn {
+  background-color: #7fffd4;
+  box-shadow: 0 0 5px rgba(0, 0, 0, .2)
+}
+
+.flex-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #fff;
+  width: 100%
+}
+
+.flex-container>div {
+  border-radius: 5px;
+  margin: 10px;
+  padding: 20px;
+  font-size: 25px
+}
+
+#wrapper2 {
+  width: 100%;
+  display: flex;
+  justify-content: center
+}
+
+#wrapper3 {
+  width: 100%;
+  display: flex;
+  justify-content: center
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Ubuntu, sans-serif
+}
+
+body {
+  background: #2196f3;
+  margin: 0 10px
+}
+
+.payment {
+  max-width: 360px;
+  margin: 80px auto;
+  height: auto;
+  padding: 35px;
+  padding-top: 70px;
+  border-radius: 5px;
+  position: relative
+}
+
+.form .label {
+  display: block;
+  color: #555;
+  margin-bottom: 6px
+}
+
+.input {
+  padding: 10px 15px 10px 5px;
+  width: 100%;
+  text-align: center;
+  letter-spacing: 1px;
+  word-spacing: 1px;
+  outline: 0;
+  font-size: 16px;
+  color: #000
+}
+
+.inputHeshbon {
+  padding: 10px 15px 10px 5px;
+  width: 100%;
+  text-align: center;
+  letter-spacing: 1px;
+  word-spacing: 1px;
+  outline: 0;
+  font-size: 16px;
+  color: #000
+}
+
+.card-grp {
+  display: flex;
+  justify-content: space-between
+}
+
+.card-item {
+  width: 100%
+}
+
+.space {
+  margin-bottom: 20px
+}
+
+.icon-relative {
+  position: relative
+}
+
+.icon-relative .far, .icon-relative .fas {
+  position: absolute;
+  bottom: 12px;
+  left: 15px;
+  font-size: 20px;
+  color: #555
+}
+
+.btn {
+  margin-top: 40px;
+  background: #2196f3;
+  padding: 12px;
+  text-align: center;
+  color: #f8f8f8;
+  border-radius: 5px;
+  cursor: pointer
+}
+
+.payment-logo {
+  position: absolute;
+  top: -50px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100px;
+  height: 100px;
+  background: #f8f8f8;
+  border-radius: 50%;
+  box-shadow: 0 0 5px rgba(0, 0, 0, .2);
+  text-align: center;
+  line-height: 85px
+}
+
+.payment-logo:before {
+  content: "";
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  width: 90px;
+  height: 90px;
+  background: #2196f3;
+  border-radius: 50%
+}
+
+@media screen and (max-width:420px) {
+  .card-grp {
+    flex-direction: column
+  }
+
+  .card-item {
+    width: 100%;
+    margin-bottom: 20px
+  }
+
+  .btn {
+    margin-top: 20px
+  }
+}
+
+.label {
+  text-align: center;
+  letter-spacing: 2px;
+  margin-left: 40px
+}
+
+.box {
+  position: absolute;
+  top: 5%;
+  left: 50%;
+  transform: translate(-50%, -50%)
+}
+
+.box select {
+  background-color: #fff;
+  color: #000;
+  padding: 5px;
+  width: 150px;
+  border: none;
+  font-size: 20px;
+  box-shadow: 0 5px 25px rgba(0, 0, 0, .2);
+  -webkit-appearance: button;
+  appearance: button;
+  outline: 0
+}
+
+.box:hover::before {
+  color: rgba(255, 255, 255, .6);
+  background-color: rgba(255, 255, 255, .2)
+}
+
+.box select option {
+  padding: 30px
+}
+
+a.nextBtn {
+  float: left;
+  text-align: left;
+  margin-top: 20px;
+  padding: 10px 30px;
+  border: none;
+  outline: 0;
+  background-color: #b4dcff;
+  font-size: 18px;
+  font-style: bold;
+  text-decoration: none;
+  color: #000;
+  cursor: pointer;
+  box-shadow: 0 0 5px rgba(0, 0, 0, .2)
+}
+
+a.prevBtn {
+  float: right;
+  text-align: right;
+  margin-top: 20px;
+  padding: 10px 30px;
+  border: none;
+  outline: 0;
+  background-color: #b4dcff;
+  font-size: 18px;
+  font-style: bold;
+  text-decoration: none;
+  color: #000;
+  cursor: pointer;
+  box-shadow: 0 0 5px rgba(0, 0, 0, .2)
+}
+
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: #000;
+  background-color: rgba(0, 0, 0, .4)
+}
+
+.modal-content {
+  background-color: #fefefe;
+  margin: 15% auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%
+}
+
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: 700
+}
+
+.close:focus, .close:hover {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer
+}
+
+.modal-header {
+  padding: 2px 16px;
+  background-color: #5cb85c;
+  color: #fff
+}
+
+.modal-body {
+  padding: 2px 16px
+}
+
+.modal-footer {
+  padding: 2px 16px;
+  background-color: #5cb85c;
+  color: #fff
+}
+
+.modal-content {
+  position: relative;
+  background-color: #fefefe;
+  margin: auto;
+  padding: 0;
+  border: 1px solid #888;
+  width: 80%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, .2), 0 6px 20px 0 rgba(0, 0, 0, .19);
+  animation-name: animatetop;
+  animation-duration: .4s
+}
+
+@keyframes animatetop {
+  from {
+    top: -300px;
+    opacity: 0
+  }
+
+  to {
+    top: 0;
+    opacity: 1
+  }
+}
